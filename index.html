@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
@@ -14,7 +18,52 @@
     <title>Car</title>
   </head>
   <body>
-    <section class="footer">
+    <div class="container-swiper">
+      <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper">
+          <div class="card-item swiper-slide">
+            <img src="./Assets/car.jpg" alt="user image" class="user-image" />
+            <h2 class="user-name">joj</h2>
+            <p class="user-profession">sof dev</p>
+            <button class="message-button">Message</button>
+          </div>
+
+          <div class="card-item swiper-slide">
+            <img src="./Assets/car.jpg" alt="user image" class="user-image" />
+            <h2 class="user-name">joj</h2>
+            <p class="user-profession">sof dev</p>
+            <button class="message-button">Message</button>
+          </div>
+
+          <div class="card-item swiper-slide">
+            <img src="./Assets/car.jpg" alt="user image" class="user-image" />
+            <h2 class="user-name">joj</h2>
+            <p class="user-profession">sof dev</p>
+            <button class="message-button">Message</button>
+          </div>
+
+          <div class="card-item swiper-slide">
+            <img src="./Assets/car.jpg" alt="user image" class="user-image" />
+            <h2 class="user-name">joj</h2>
+            <p class="user-profession">sof dev</p>
+            <button class="message-button">Message</button>
+          </div>
+
+          <div class="card-item swiper-slide">
+            <img src="./Assets/car.jpg" alt="user image" class="user-image" />
+            <h2 class="user-name">joj</h2>
+            <p class="user-profession">sof dev</p>
+            <button class="message-button">Message</button>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+      </div>
+    </div>
+
+    <div class="footer">
       <div class="social">
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -31,6 +80,9 @@
           <a href="">Kontakt</a>
         </li>
       </ul>
-    </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

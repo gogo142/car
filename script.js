@@ -3,13 +3,6 @@ const swiper = new Swiper('.slider-wrapper', {
     grabCursor: true,
     spaceBetween: 30,
   
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBullets: true
-    },
-  
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
